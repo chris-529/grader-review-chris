@@ -17,7 +17,7 @@ exit
 fi 
 
 #MOVE EVERYTHING WE NEED TO A GRADING AREA THAT DUPLICATES STUDENT'S SUBMISSION + TESTS
-cp -r student-submission/ grading-area 
+cp -r student-submission/* grading-area 
 cp TestListExamples.java grading-area
 cp -r lib grading-area
 
